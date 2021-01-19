@@ -15,3 +15,5 @@ source .bashrc
 conda create -n tgpu tensorflow-gpu
 conda activate tgpu
 conda install pandas pillow imageio matplotlib requests
+sudo apt-get install joe git 
+git config --global credential.helper 'cache --timeout=3600'
