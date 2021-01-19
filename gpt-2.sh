@@ -16,5 +16,6 @@ source .bashrc
 conda create -n tgpu python=3.6 tensorflow-gpu==1.15.0
 conda activate tgpu
 conda install -y requests
+pip install gpt-2-simple
 sudo apt-get install joe git 
 git config --global credential.helper 'cache --timeout=3600'
