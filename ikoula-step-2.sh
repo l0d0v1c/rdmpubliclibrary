@@ -13,6 +13,6 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 sudo useradd -m dockr
-echo "entrer le mot des passe de l'utilisateur dockr'"
+echo "entrer un mot de passe pour l'utilisateur dockr (sudoer) à créer'"
 sudo passwd dockr
 sudo usermod -aG sudo dockr
